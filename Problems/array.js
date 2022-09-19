@@ -16,7 +16,7 @@ const add2 = (add) => add%2 == 0;
 //console.log(add.filter(add2));
 
 const names2 = (len) => len.length<=5;
-//console.log(names.filter(names2));
+console.log(names.filter(names2));
 //console.log(names.map(names2));
 
 
@@ -65,6 +65,6 @@ const employee = [
 
 const num = [2,4,6]
 
-console.log(num.reduce((firstnum, currnum)=> firstnum+currnum));
+//console.log(num.reduce((firstnum, currnum)=> firstnum+currnum));
 
 
