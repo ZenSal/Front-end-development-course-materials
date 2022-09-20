@@ -67,7 +67,7 @@ function bubbleDes(n){
 
 //console.log(bubbleDes(100));
 
-var numbers = [10,5,8,20,2,18]
+var numbers = [100,69,84,32,1,6,59]
 
 function select(array){
     for(let i=0; i<array.length-1; i++){
