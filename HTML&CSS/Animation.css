@@ -1,0 +1,26 @@
+
+.animate{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    border: 1px solid blue;
+    background-color: black;
+    animation-name: animation;
+    /* animation-iteration-count: infinite; */
+    animation-duration: 1s;
+}
+
+@keyframes animation {
+
+    0%{top:0; left:0}
+
+    50%{background-color: aqua; top:0; left:95%}
+
+    60%{background-color: azure; top:0; right:0}
+
+    80%{background-color: brown; top:0; left:95%}
+
+    100%{top:0; left:0}
+
+
+}

@@ -3,93 +3,141 @@
 
 <html>
     <head>
+
+
+        <link rel="stylesheet" href="signup.css">
+
+        <style>
+
+            /* Id Selector  need # whenever applying */
+
+            #Textcolor{  
+
+                color:orange;
+                font-size: 90px;
+            }
+
+            /* Tagname Selector */
+
+            
+        </style>
         <!-- head tag provides the information about the appliaction and adding files(js,css) -->
     </head>
 
-    <body>
-        <!-- everything we see on the browser -->
 
-        <h1>
+
+    <body bgcolor="lightblue">
+
+        <div class="parent">
+
+
+            <div class="right">
+
+                <img width="65%" src="https://play-lh.googleusercontent.com/qUXstz8STnZKI7NjbgHnS0BSffnBTM1H4r5IBXLYoTinjiuPVFBSDQZz-jMp36P--v8" alt="Signup">
+
+            </div>
+    
+            <div class="left">
+    
+                <h4>
+                        Please fill all the details
+                </h4>  
+                
+                
+                <!-- creating a form for filling the details -->
+                <!-- form is a container controls form control -->
+                <form>
+                    <!-- selfclosing tags : which doesn't have sepreate closing tags -->
+                    <label for="fname">Enter your first name</label> 
+                    
+                    <!-- label is used to name the input should we give -->
+                    <input type="text" name="fname" placeholder="Firstname"/>
+                    
+                    
+                    <label for="Mnmae">Enter your middle name</label>
+                    
+                    <input type="text" name="Mname" placeholder="Middlename">
+                    
+                    
+                    <label for="lname">Enter your last name</label>
+                    
+                    <input type="text" name="lname"placeholder="Lastname">
+                    
+                    
+                    <label for="email">Your Email</label>
+                    
+                    <input type="email" name="email" placeholder="Enter your email">
+                    
+                    
+                    <label for="password">Enter your password</label>
+                    
+                    <input type="password" name="password" placeholder="8-13 characters">
+                    
+                    
+                    <label for="DOB">Enter your date of birth</label>
+                    
+                    <input type="date" name="DOB">
+                    
+                    
+                    <label for="mobile">Enter your mobile number</label>
+                    
+                    <input type="number" name="mobile">
+                    
+                    
+                    <label class="label-radio" for="Gender">Please select your gender</label>
+                    <br>
+                    <input class="input-radio" type="radio" name="Gender"><label class="label-radio" for="">Male</label>
+                    <input class="input-radio" type="radio" name="Gender"><label class="label-radio" for="">Female</label>
+                    <input class="input-radio" type="radio" name="Gender"><label class="label-radio" for="">Others</label>
+                    
+                    
+                    <label for="Address">Enter your address</label>
+                    
+                    <!-- text area is for multi line space -->
+                    <textarea name="Address" cols="30" rows="5"></textarea>
+                    
+                    
+                    <label for="City">Select your city</label>
+                    
+                    <select name="City" >
+                        <option value="0">Chennai</option>
+                        <option value="1">Mumbai</option>
+                        <option value="2">Kolkata</option>
+                        <option value="3">Bangalore</option>
+                        <option value="4">punjab</option>
+                    </select>
+                    
+                    
+                    <label for="pincode">Enter your pincode</label>
+                    
+                    <input type="text" name="pincode">
+                    
+                    
+                    <input class ="terms" type="checkbox" name="tc" >
+                    <label class="terms" for="tc">I accept the terms and conditions</label>
+                    
+                    <div class="terms2">
+        
+                        <button value="submit">Signup</button>
+                        <button value="reset">Clear </button>
+        
+                    </div>
+                    
+                </form>
+    
+            </div>
+    
+            
+
+
+        </div>
+
+        
+        <!-- everything we see on thewser -->
+
+        <!-- <h1 id="Textcolor">
             Welcome to the SignUP page
-        </h1>
-        <h5>
-            Please fill all the details
-        </h5>
-        <!-- creating a form for filling the details -->
-        <!-- form is a container controls form control -->
-        <form>
-            <!-- selfclosing tags : which doesn't have sepreate closing tags -->
-            <label for="fname">Enter your first name</label> 
-            <br>
-            <!-- label is used to name the input should we give -->
-            <input type="text" name="fname" placeholder="Firstname"/>
-            <br>
-            <br>
-            <label for="Mnmae">Enter your middle name</label>
-            <br>
-            <input type="text" name="Mname" placeholder="Middlename">
-            <br>
-            <br>
-            <label for="lname">Enter your last name</label>
-            <br>
-            <input type="text" name="lname"placeholder="Lastname">
-            <br>
-            <br>
-            <label for="email">Your Email</label>
-            <br>
-            <input type="email" name="email" placeholder="Enter your email">
-            <br>
-            <br>
-            <label for="password">Enter your password</label>
-            <br>
-            <input type="password" name="password" placeholder="8-13 characters">
-            <br>
-            <br>
-            <label for="DOB">Enter your date of birth</label>
-            <br>
-            <input type="date" name="DOB">
-            <br>
-            <br>
-            <label for="mobile">Enter your mobile number</label>
-            <br>
-            <input type="number" name="mobile">
-            <br>
-            <br>
-            <label for="Gender">Please select your gender</label>
-            <br>
-            <input type="radio" name="Gender"><label for="">Male</label>
-            <input type="radio" name="Gender"><label for="">Female</label>
-            <input type="radio" name="Gender"><label for="">Others</label>
-            <br>
-            <br>
-            <label for="Address">Enter your address</label>
-            <br>
-            <!-- text area is for multi line space -->
-            <textarea name="Address" cols="30" rows="5"></textarea>
-            <br>
-            <br>
-            <label for="City">Select your city</label>
-            <br>
-            <select name="City" >
-                <option value="0">Chennai</option>
-                <option value="1">Mumbai</option>
-                <option value="2">Kolkata</option>
-                <option value="3">Bangalore</option>
-                <option value="4">punjab</option>
-            </select>
-            <br>
-            <br>
-            <label for="pincode">Enter your pincode</label>
-            <br>
-            <input type="text" name="pincode">
-            <br>
-            <br>
-            <input type="checkbox" name="tc" >
-            <label for="tc">I accept the terms and conditions</label>
-            <br>
-            <br>
-            <input type="submit" value="SignUP">
-            <button value="reset">Clear </button>
-        </form>
+        </h1> -->
+        
     </body> 
 </html>

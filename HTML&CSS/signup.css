@@ -1,0 +1,150 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 8px;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    width: 99%;
+    height: 5%;
+}
+
+img{
+
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+textarea{
+    font-size: medium;
+}
+
+select{
+    font-size: medium;
+    
+}
+
+label{
+
+    color: purple;
+    width: 750px;
+    display: block;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:6px;
+
+}
+
+input{
+    display: block;
+    font-size: medium;
+    width: 70%;
+    margin-left:170px;
+    height: 34px;
+    border-radius: 8px;
+    padding: 6px;
+    
+}
+
+.input-radio{
+
+    display: inline;
+    width: max-content;
+    height: max-content;
+    margin: 6px;
+
+
+}
+
+.label-radio{
+
+    display: inline;
+    width: max-content;
+    height: 30px;
+    
+
+}
+
+.terms{
+
+    display: inline-block;
+    width: max-content;
+    height: max-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+    margin-right: -16px;
+
+}
+
+.terms2{
+    display: block;
+    width: max-content;
+    align-items: center;
+    margin-right:200px;
+}
+
+/* Class selectors */
+.font-size{
+
+    font-size: 15px;
+}
+
+*{
+    font-size: x-large;
+}
+
+
+/* img{ */
+
+   
+/*  */
+    /*       width style color */
+    /* border: 2px solid black;
+    border-radius: 30px;
+
+    /* space between the content and the border  */
+    /* padding: 40px;
+    margin: 50px; */ 
+
+.parent{
+
+    display: flex;
+    margin: 35px;
+
+
+
+}
+
+
+.left{
+
+    width: 50%;
+    
+
+}
+
+.right{
+
+    width: 50%;
+
+
+}
+
+
+@media only screen and (max-width: 500px){
+
+    .left{
+        width: 100px;
+        height: 100 px;
+    }
+    
+    .right{
+        width: 100px;
+        
+    }
+}
