@@ -1,0 +1,124 @@
+.page_header{
+    display: flex;
+    height: 55px;
+    background-color: black;
+}
+
+body{
+    margin: 0%;
+}
+
+.icon{
+    color: white;
+    
+    margin: 12px;
+    margin-top: 10px;
+}
+
+.site_name{
+    
+    margin-right:1px;
+    color: white;
+    font-size: small;
+}
+
+.quotes{
+    padding: 2px;
+    margin: 4px;
+    height: 10px;
+    color: white;
+}
+
+.header_left{
+
+    width: 30%;
+    margin: 8px;
+    margin-left: 8px;
+    margin-right: 4px;
+}
+
+.header_right{
+
+    width: 70%;
+    padding:9px;
+    margin-right: 4px;
+    display: flex;
+    justify-content: end;
+
+}
+
+.btn-editor{
+    
+    height: 28px;
+    padding: 4px;
+    margin-right: 6px;
+    background-color: grey;
+    border: 1px groove white;
+    font-size: small;
+    border-radius: 2px;
+
+}
+
+.coverpage{
+    flex-direction: column;
+    display: flex;
+    height: 150px;
+    align-items: center;
+    background-color: #787878;
+    justify-content: center;
+    font-size: larger;
+    color: white;
+}
+
+.btn-cart{
+    background-color: grey;
+    color: black;
+    font-size: small;
+
+}
+.card{
+    margin-left: 6px;
+    display: flex;
+}
+.card-title{
+
+    text-align: center;
+    font-size: small;
+
+}
+
+.price-and-rate{
+    text-align: center;
+
+}
+
+.bottom{
+    
+    position: fixed;
+    display: flex;
+    height: 30px;
+    bottom: 0px;
+    width: 100%;
+    align-items: center;
+    background-color: #787878;
+    justify-content: center;
+    font-size: larger;
+    color: white;
+}
+
+.rate{
+    margin: 2px;
+    margin-bottom: 8px;
+    justify-content: center;
+    color: gold;
+}
+
+.textarea{
+   font-size: x-large;
+}
+
+.text{
+    
+    font-size: small;
+    color: grey;
+}

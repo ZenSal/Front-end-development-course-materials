@@ -1,0 +1,148 @@
+.body{
+    margin: 0px;
+    background-color: white;
+   
+}
+
+.sony_logo{
+    height: 35px;
+}
+
+.site_title{
+    display: flex;
+    margin-bottom:0px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    justify-content: end;
+    align-items: center;
+    padding: 2px;
+}
+
+.navigation{
+    height: 80px;
+}
+
+.nav{
+    position: fixed;
+}
+
+.nav-left{
+    width: 60%;
+}
+
+.nav-right{
+    width: 40%;
+    display: flex;
+    margin: 8px 0 0 20px;
+    justify-content: end;
+}
+
+.button-in{
+    margin: 12px 0;
+    height: 30px;
+    padding: 8px;
+    width: 80;
+   
+}
+
+.search-head{
+    margin: 14px 0 0 18px;
+    width:50px;
+    height:25px;
+    align-items: flex-end;
+}
+
+.coverpage{
+    display: flex;
+    
+    width:fit-content;
+}
+
+.adds{
+    display: flex;
+    margin-top: 18px;
+    padding: 4px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-left-header{
+    width: 50%;
+    margin: 130px 0 0 100px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.add-button{
+
+    margin: 12px 0;
+    height: 30px;
+    padding: 8px;
+    width: 120px;
+
+}
+
+.content-left-header :nth-child(1){
+    font-family: 'Quicksand', sans-serif;
+}
+
+.content-right{
+    width: 50%;
+}
+
+.devices{
+    display: flex;
+    margin-top: 18px;
+    padding: 4px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media{
+    
+    height: 300px;
+    background-color:lightgray;
+}
+
+.social-title{
+    display: flex;
+    margin:70px 0 0 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-img{
+    margin: 30px 0 0 350px;
+}
+
+.footer{
+    height: 600px;
+    background-color:#0072ce;
+}
+
+.footer-left{
+    width: 50%;
+    margin:180px;
+
+}
+
+.contry{
+    margin : 5px 10px 0 0;
+    width: 30px;
+}
+
+.place-site{
+    color: white;
+    margin: 0 0 50px 35px;
+}
+
+.footer-right{
+    width: 50%;
+}
+
+.logo-name{
+    margin: 140px 0 0px 0;
+}

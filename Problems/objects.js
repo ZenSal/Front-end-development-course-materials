@@ -19,29 +19,29 @@
 
 
 
-// const my_array = [
-//     {"fname":"Magesh","lname":"sal"},
-//     {"age":24,"employee":true}
-// ];
+const my_array = [
+    {"fname":"Magesh","lname":"sal"},
+    {"age":24,"employee":true}
+];
 
-//console.log(my_array[0].fname);
-//console.log(my_array[1].age);
+console.log(my_array[0].fname);
+console.log(my_array[1].age);
 
  //// freeze & seal
 
- const table = {
-    "name":"Magi"
- }
+//  const table = {
+//     "name":"Magi"
+//  }
 
- Object.seal(table); 
- //delete table.name 
- table.name = "magiiii";
- table.address = "chennai";
- console.log(table); 
-// object.freeze -> can't add or delete or update.
-// object.seal -> can update but unable to delete or add..
+//  Object.seal(table); 
+//  //delete table.name 
+//  table.name = "magiiii";
+//  table.address = "chennai";
+//  console.log(table); 
+// // object.freeze -> can't add or delete or update.
+// // object.seal -> can update but unable to delete or add..
 
-// to find whether the object is sealed or frozed 
-console.log(Object.isSealed(table));
-console.log(Object.isFrozen(table));
+// // to find whether the object is sealed or frozed 
+// console.log(Object.isSealed(table));
+// console.log(Object.isFrozen(table));
 

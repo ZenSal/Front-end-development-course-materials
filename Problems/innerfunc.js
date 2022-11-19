@@ -3,7 +3,7 @@
 const inner = function(){
     var name = "magi";
     console.log(name);
-    return function inner2( ){
+    return function inner2(){
         var age = 20; // closure -> the inner function will creates a copy of the parent function value x of it's own scope
         console.log(name+age);
         return "joo";
